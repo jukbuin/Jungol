@@ -9,15 +9,10 @@ public class Main {
 
 		int inp = sc.nextInt();
 		sc.close();
-		
-		if (inp > 0) {
-			System.out.print(inp);
-		} else {
-			System.out.println(inp);
-			if (inp < 0) {
+		System.out.println(inp);	
+		if (inp < 0) {
 				System.out.print("minus");
 			}
 		}
 	}
 
-}
