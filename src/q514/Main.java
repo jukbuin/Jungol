@@ -10,6 +10,6 @@ public class Main {
 		int h = sc.nextInt();
 		sc.close();
 		System.out.println("Your height is " + h +"cm.");
-	}
+	} 
 
 }
