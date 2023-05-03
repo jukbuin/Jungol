@@ -24,6 +24,12 @@ public class Main {
 //			i++;
 //		}
 
+//		3.do~while문
+//		int i = 0;
+//		do {
+//			System.out.print(a);
+//			i++;
+//		} while (i < 10);
 	
 	}
 }
