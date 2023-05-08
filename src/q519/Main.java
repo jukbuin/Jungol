@@ -10,10 +10,12 @@ public class Main {
 		int b = sc.nextInt();
 		sc.close();
 
-		int c = a + 100;
-		int d = b % 10;
-		System.out.print(c + " ");
-		System.out.print(d);
+		a += 100;
+		b %= 10;
+//		int c = a + 100;
+//		int d = b % 10;
+		System.out.print(a + " ");
+		System.out.print(b);
 	}
 
 }
