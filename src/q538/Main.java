@@ -15,11 +15,10 @@ public class Main {
 			} else if (num < 0) {
 				System.out.println("negative number");
 			} else {
+				sc.close();
 				break;
 			}
-
 		}
-		sc.close();
 	}
 
 }
