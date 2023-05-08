@@ -8,7 +8,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int i = 0;
 		char[] al = new char[10];
-		for (i = 0; i < 10; i++) {
+		for (i = 0; i < al.length; i++) {
 			al[i] = sc.next().charAt(0);
 		}
 		sc.close();
