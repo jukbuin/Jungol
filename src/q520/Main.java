@@ -9,8 +9,7 @@ public class Main {
 		int num = sc.nextInt();
 		sc.close();
 		System.out.println(num++);
-		++num;
-		System.out.print(num);
+		System.out.print(++num);
 
 	}
 
