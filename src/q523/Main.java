@@ -10,22 +10,26 @@ public class Main {
 		int num2 = sc.nextInt();
 		sc.close();
 
-		if (num1 > num2) {
-			System.out.println(num1 + " > " + num2 + " --- " + true);
-			System.out.println(num1 + " < " + num2 + " --- " + false);
-			System.out.println(num1 + " >= " + num2 + " --- " + true);
-			System.out.println(num1 + " <= " + num2 + " --- " + false);
-		} else if (num1 < num2) {
-			System.out.println(num1 + " > " + num2 + " --- " + false);
-			System.out.println(num1 + " < " + num2 + " --- " + true);
-			System.out.println(num1 + " >= " + num2 + " --- " + false);
-			System.out.println(num1 + " <= " + num2 + " --- " + true);
-		} else {
-			System.out.println(num1 + " > " + num2 + " --- " + false);
-			System.out.println(num1 + " < " + num2 + " --- " + false);
-			System.out.println(num1 + " >= " + num2 + " --- " + true);
-			System.out.println(num1 + " <= " + num2 + " --- " + true);
-		}
+//		if (num1 > num2) {
+//			System.out.println(num1 + " > " + num2 + " --- " + true);
+//			System.out.println(num1 + " < " + num2 + " --- " + false);
+//			System.out.println(num1 + " >= " + num2 + " --- " + true);
+//			System.out.println(num1 + " <= " + num2 + " --- " + false);
+//		} else if (num1 < num2) {
+//			System.out.println(num1 + " > " + num2 + " --- " + false);
+//			System.out.println(num1 + " < " + num2 + " --- " + true);
+//			System.out.println(num1 + " >= " + num2 + " --- " + false);
+//			System.out.println(num1 + " <= " + num2 + " --- " + true);
+//		} else {
+//			System.out.println(num1 + " > " + num2 + " --- " + false);
+//			System.out.println(num1 + " < " + num2 + " --- " + false);
+//			System.out.println(num1 + " >= " + num2 + " --- " + true);
+//			System.out.println(num1 + " <= " + num2 + " --- " + true);
+//		}
+		System.out.println(num1 + " > " + num2 + " --- " + (num1 > num2) );
+		System.out.println(num1 + " < " + num2 + " --- " + (num1 < num2) );
+		System.out.println(num1 + " >= " + num2 + " --- " + (num1 >= num2) );
+		System.out.println(num1 + " <= " + num2 + " --- " + (num1 <= num2) );
 	}
 
 }
