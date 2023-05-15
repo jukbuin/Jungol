@@ -9,20 +9,21 @@ public class Main {
 		double score = sc.nextDouble();
 		sc.close();
 
-		switch ((int) score) {
-		case 4:
-			System.out.print("scholarship");
-			break;
-		case 3:
-			System.out.print("next semester");
-			break;
-		case 2:
-			System.out.print("seasonal semester");
-			break;
-		default:
-			System.out.print("retake");
-			break;
+		if (score >= 0 && score <= 4.5) {
+			switch ((int) score) {
+			case 4:
+				System.out.print("scholarship");
+				break;
+			case 3:
+				System.out.print("next semester");
+				break;
+			case 2:
+				System.out.print("seasonal semester");
+				break;
+			default:
+				System.out.print("retake");
+				break;
+			}
 		}
-
 	}
 }
