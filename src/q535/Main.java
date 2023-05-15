@@ -10,13 +10,13 @@ public class Main {
 		sc.close();
 
 		switch ((int) score) {
-		case (int) 4.0:
+		case 4:
 			System.out.print("scholarship");
 			break;
-		case (int) 3.0:
+		case 3:
 			System.out.print("next semester");
 			break;
-		case (int) 2.0:
+		case 2:
 			System.out.print("seasonal semester");
 			break;
 		default:
