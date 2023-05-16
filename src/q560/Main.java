@@ -8,16 +8,16 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int a[] = new int[10];
 		int i = 0;
-		int min = 1000;
+		int max = 1000;
 		for (i = 0; i < a.length; i++) {
 			a[i] = sc.nextInt();
 		}
 		sc.close();
 		
 		for (i = 0; i < a.length; i++) {
-			min = min < a[i] ? min : a[i];
+			max = max < a[i] ? max : a[i];
 		}
-		System.out.print(min);
+		System.out.print(max);
 	}
 
 }
