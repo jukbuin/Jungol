@@ -12,10 +12,12 @@ public class Main {
 //		int min = a[0];
 		for (int i = 0; i < a.length; i++) {
 			a[i] = sc.nextInt();
-			min = min < a[i] ? min : a[i];
 		}
 		sc.close();
-
+		
+		for (int i = 0; i < a.length; i++) {
+			min = min < a[i] ? min : a[i];
+		}
 		System.out.print(min);
 	}
 
