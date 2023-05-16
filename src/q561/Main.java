@@ -7,8 +7,8 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int a[] = new int[10];
-		int min1 = 0;
-		int min2 = 10000;
+		int max = 0;
+		int min = 10000;
 
 		for (int i = 0; i < a.length; i++) {
 			a[i] = sc.nextInt();
@@ -17,17 +17,17 @@ public class Main {
 
 		for (int i = 0; i < a.length; i++) {
 			if (a[i] < 100) {
-				min1 = min1 > a[i] ? min1 : a[i];
+				max = max > a[i] ? max : a[i];
 			} else if (a[i] >= 100) {
-				min2 = min2 > a[i] ? a[i] : min2;
+				min = min > a[i] ? a[i] : min;
 			}
 		}
-		if (min1 == 0) {
-			min1 = 100;
+		if (max == 0) {
+			max = 100;
 		}
-		if (min2 == 10000) {
-			min2 = 100;
+		if (min == 10000) {
+			min = 100;
 		}
-		System.out.print(min1 + " " + min2);
+		System.out.print(max + " " + min);
 	}
 }
