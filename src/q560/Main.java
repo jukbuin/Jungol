@@ -15,7 +15,7 @@ public class Main {
 		sc.close();
 		
 		for (i = 0; i < a.length; i++) {
-			min = (min < a[i]) ? min : a[i];
+			min = min < a[i] ? min : a[i];
 		}
 		System.out.print(min);
 	}
