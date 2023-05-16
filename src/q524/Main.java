@@ -10,14 +10,16 @@ public class Main {
 		int num2 = sc.nextInt();
 		sc.close();
 
-		if (num1 != 0 && num2 != 0) {
-			System.out.print(true);
-		} else {
-			System.out.print(false);
-		}
-		if (num1 != 0 || num2 != 0) {
-			System.out.print(" " + true);
-		}
+//		if (num1 != 0 && num2 != 0) {
+//			System.out.print(true);
+//		} else {
+//			System.out.print(false);
+//		}
+//		if (num1 != 0 || num2 != 0) {
+//			System.out.print(" " + true);
+//		}
+		System.out.print((num1 != 0 && num2 != 0) + " ");
+		System.out.print(num1 != 0 || num2 != 0);
 	}
 
 }
