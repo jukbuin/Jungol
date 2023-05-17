@@ -8,6 +8,8 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
+		sc.close();
+		
 		int c = ++a + b--;
 		System.out.print("a = " + a + ", b = " + b + ", c = " + c);
 	}
