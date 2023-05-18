@@ -8,7 +8,7 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int a[] = new int[10];
 		int sum = 0;
-		double avg = 0;
+		double avg = 0.0;
 
 		for (int i = 0; i < a.length; i++) {
 			a[i] = sc.nextInt();
