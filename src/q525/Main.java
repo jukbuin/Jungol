@@ -11,9 +11,7 @@ public class Main {
 		int c = sc.nextInt();
 		sc.close();
 
-		int max = 0;
-		max = a > b ? a : b;
-		System.out.print(max > c ? 1 + " " : 0 + " ");
+		System.out.print(a > b && a > c ? 1 + " " : 0 + " ");
 		System.out.print(a == b && b == c && a == c ? 1 : 0);
 	}
 
