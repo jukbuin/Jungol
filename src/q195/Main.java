@@ -29,11 +29,10 @@ class Info {
 	}
 
 	public void setName(String name) {
-		if (name.length() > 100) {
-			this.name = null;
-			return;
+		if (name.length() <= 100) {
+			this.name = name;
 		}
-		this.name = name;
+
 	}
 
 	public String getTel() {
@@ -41,11 +40,10 @@ class Info {
 	}
 
 	public void setTel(String tel) {
-		if (tel.length() > 100) {
-			this.name = null;
-			return;
+		if (tel.length() <= 100) {
+			this.tel = tel;
 		}
-		this.tel = tel;
+
 	}
 
 	public String getAddr() {
@@ -53,11 +51,10 @@ class Info {
 	}
 
 	public void setAddr(String addr) {
-		if (addr.length() > 100) {
-			this.name = null;
-			return;
+		if (addr.length() <= 100) {
+			this.addr = addr;
 		}
-		this.addr = addr;
+
 	}
 
 	public void str() {
