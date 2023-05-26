@@ -63,7 +63,6 @@ public class Main {
 		} else {
 			i[2].print();
 		}
-
 	}
 
 }
