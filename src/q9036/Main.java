@@ -11,6 +11,7 @@ public class Main {
 		System.out.println("3. 삭제");
 		System.out.print("숫자를 선택하세요. ");
 		int num = sc.nextInt();
+		sc.close();
 
 		switch (num) {
 		case 1:
