@@ -15,7 +15,10 @@ public class Main {
 //		} else {
 //			System.out.print(b - a);
 //		}
-		System.out.print(a > b ? a - b : b - a);
+
+//		System.out.print(a > b ? a - b : b - a);
+
+		System.out.println(Math.abs(a - b));
 	}
 
 }
